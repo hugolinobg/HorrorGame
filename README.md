@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto prático de uma Landing Page da Jornada do Zero à Primeira Vaga da Rocketseat.
 
-- [Acesse o projeto finalizado, online](https://links.hugolino.dev/)
+- [Acesse o projeto finalizado, online](https://hugolinobg.github.io/HorrorGame/)
 
 ## 🔖 Layout
 
