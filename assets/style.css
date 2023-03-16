@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --bg-url: url(./image/image.png);
+  --ff-first: "Inter", sans-serif;
+  --ff-second: "Emilys Candy", cursive;
+  --text-color: #ffc700;
+}
+
+body {
+  background: var(--bg-url) no-repeat center/cover;
+  height: 100vh;
+  font-family: var(--ff-first);
+  text-align: center;
+  background-color: #000;
+}
+
+main {
+  padding-top: 16rem;
+}
+
+.headline {
+  margin-bottom: 72px;
+}
+
+.headline h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.headline h3 span {
+  color: var(--text-color);
+}
+
+.headline h1 {
+  font-family: var(--ff-second);
+  font-weight: 400;
+  font-size: 6.4rem;
+  line-height: 8rem;
+  text-align: center;
+
+  color: var(--text-color);
+}
+
+.headline p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.links a,
+.links .btn-primary {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+.links a {
+  text-decoration-line: underline;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  padding: 1.2rem 3.2rem;
+}
+
+.links .btn-primary {
+  text-decoration: none;
+
+  color: #040101;
+
+  padding: 1.2rem 3.2rem;
+
+  background: var(--text-color);
+}
+
+.btn-primary:hover {
+  background: #fdd546;
+}
